@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <header>
-        <h1>Heading</h1>
-        <a href="">header link one</a>
-        <a href="">header link two</a>
-        <a href="">header link three</a>
+        <h1 id="header-logo">Heading</h1>
+        <nav id="header-links">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
+        </nav>
     </header>
 
-    <div id="top-page">
-        <h1>This website is awesome</h1>
-        <body>
-            This website has some subtext that goes under the main title. It's a smaller font and the colour is lower contrast.
-        </body>
-        <button>Sign up</button>
-        <img src="" alt="">
-    </div>
+    <section id="top-page">
+        <h1 id="top-page-heading">This website is awesome</h1>
+        <p id="top-page-body">This website has some subtext that goes under the main title. It's a smaller font and the colour is lower contrast.</p>
+        <button id="button-sign-up">Sign up</button>
+        <img src="" alt="Description of Image" id="top-page-image">
+    </section>
 
-    <div id="middle-page">
-        <h2>Some random information.</h2>
-
+    <section id="middle-page">
+        <h2 id="middle-page-heading">Some random information.</h2>
         <div id="image-gallery">
-
-            <div class="image-gallery-item">
-                <img src="" alt="">
-                <body>this is some subtext under an image</body>
-            </div>
-
-            <div class="image-gallery-item">
-                <img src="" alt="">
-                <body>this is some subtext under an image</body>
-            </div>
-
-            <div class="image-gallery-item">
-                <img src="" alt="">
-                <body>this is some subtext under an image</body>
-            </div>
-
-            <div class="image-gallery-item">
-                <img src="" alt="">
-                <body>this is some subtext under an image</body>
-            </div>
-
+            <figure class="image-gallery-item">
+                <img src="" alt="Description of Image">
+                <figcaption>this is some subtext under an image</figcaption>
+            </figure>
+            <figure class="image-gallery-item">
+                <img src="" alt="Description of Image">
+                <figcaption>this is some subtext under an image</figcaption>
+            </figure>
+            <figure class="image-gallery-item">
+                <img src="" alt="Description of Image">
+                <figcaption>this is some subtext under an image</figcaption>
+            </figure>
+            <figure class="image-gallery-item">
+                <img src="" alt="Description of Image">
+                <figcaption>this is some subtext under an image</figcaption>
+            </figure>
         </div>
-        
-    </div>
+    </section>
 
-    <div id="second-bottom-page">
-        <body>
-            An inspiring quote
-        </body>
-    </div>
+    <section id="second-bottom-page">
+        <p>An inspiring quote</p>
+    </section>
 
-    <div id ="bottom-page">
+    <section id="bottom-page">
         <div id="call-action-box">
             <h3>Call to action!</h3>
         </div>
-    </div>
+    </section>
 
     <footer>
         <p>Copyright 2023</p>
     </footer>
 
 </body>
+
 </html>
