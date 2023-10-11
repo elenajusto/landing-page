@@ -179,14 +179,33 @@ figcaption {
 #bottom-page {
     padding-top: 200px;
     padding-bottom: 200px;
+
+    display: flex;
+    justify-content: center;
 }
 
-p {
+#call-action-box {
+    width: 1000px;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;   /* this will push the logo to the left and the links to the right w/ space from edge of page*/
+    align-items: center;             /* to vertically align the logo and links in the center */
+
+}
+
+#call-action-heading {
     font-family: 'Hero New', sans-serif;
 }
 
-h3 {
+#call-action-p {
     font-family: 'Hero New', sans-serif;
+}
+
+#call-action-button {
+
 }
 
 /******* footer Section Styles ******/
