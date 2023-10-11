@@ -25,8 +25,37 @@ header {
 }
 
 /* Removes margin so that background colour is cohesive with no gaps*/
-body, #header-logo {
+body, #header-logo, #top-page-heading {
     margin: 0;
-    padding: 0;
 }
 
+/******* top-page Section Styles ******/
+#top-page {
+    background-color: #1F2937;
+}
+
+#top-page-heading {
+    font-size: 48px;
+    font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;
+
+    padding: 30px;
+}
+
+#top-page-body {
+    font-size: 20px;
+    font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;
+
+    padding: 30px;
+}
+
+#button-sign-up {
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882f6;
+}
+
+#top-page-image {
+    color: #F9FAF8;
+}
