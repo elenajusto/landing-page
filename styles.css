@@ -40,7 +40,7 @@ body, #header-logo, #top-page-heading {
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
 
-    padding: 30px;
+    margin: 30px;
 }
 
 #top-page-body {
@@ -48,13 +48,28 @@ body, #header-logo, #top-page-heading {
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
 
-    padding: 30px;
+    margin  : 30px;
+}
+
+#top-page-left {
+    display: flex;
+    flex-direction: column;
 }
 
 #button-sign-up {
     font-weight: bold;
     color: #F9FAF8;
     background-color: #3882f6;
+
+    width: 150px;
+    height: 50px;
+
+    margin: 30px;
+}
+
+#top-page-right {
+    display: flex;
+    align-items: center;
 }
 
 #top-page-image {
