@@ -139,8 +139,10 @@ body, #header-logo, #top-page-heading {
 
 figcaption {
     margin-top: 100px;
-    padding-top: 20px;
+
     font-family: 'Hero New', sans-serif;
+    font-size: 18px;
+    color: #1F2937;
 }
 
 /******* second-bottom-page Section Styles ******/
