@@ -204,10 +204,15 @@ figcaption {
 
 #call-action-heading {
     font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 #call-action-p {
     font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;;
+    font-size: 20px;;
 }
 
 #call-action-button {
