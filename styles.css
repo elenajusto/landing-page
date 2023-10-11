@@ -1,4 +1,4 @@
-/*Header Styles*/
+/******* Header Styles ******/
 #header-logo {
     font-size: 24px;
     font-family: 'Hero New', sans-serif;
@@ -9,11 +9,19 @@
     font-size: 18px;
     font-family: 'Hero New', sans-serif;
     color: #E5E7EB;
+
+    display: flex;               /* Displays links in a row */
+    justify-content: flex-end;   /* Push links to right */
+    gap: 20px;                   /* Space between links */
 }
 
 header {
     background-color: #1F2937;
     margin: 0;
+
+    display: flex;
+    justify-content: space-around;   /* this will push the logo to the left and the links to the right w/ space from edge of page*/
+    align-items: center;             /* to vertically align the logo and links in the center */
 }
 
 /* Removes margin so that background colour is cohesive with no gaps*/
