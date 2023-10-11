@@ -39,6 +39,8 @@ body, #header-logo, #top-page-heading {
     display: flex;                   /* Make the section a flex container */
     justify-content: space-around;   /* this will push the left elements to the left and right elements to the right w/ space from edge of page*/
     align-items: center;             /* to vertically align the elements in the center */
+
+    padding-bottom: 100px;
 }
 
 #top-page-heading {
@@ -100,7 +102,7 @@ body, #header-logo, #top-page-heading {
 /******* middle-page Section Styles ******/
 #middle-page {
     padding-top: 300;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 #middle-page-heading {
@@ -150,8 +152,28 @@ figcaption {
     background-color: #E5E7EB;
 
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     /* align horizontally in the center */
+    align-items: center;         /* align vertically in the middle */
+  
 }   
+
+#quote-text {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+
+    width: 900px;   /* For word wrapping */
+}
+
+#quote-author {
+    font-size: 28px;
+    color:#1F2937;
+    font-weight: bold;
+}
 
 /******* bottom-page Section Styles ******/
 #bottom-page {
@@ -166,6 +188,7 @@ p {
 h3 {
     font-family: 'Hero New', sans-serif;
 }
+
 /******* footer Section Styles ******/
 footer {
     padding-top: 50px;
