@@ -129,11 +129,9 @@ body, #header-logo, #top-page-heading {
 }
 
 .image-gallery-img {
-    width: 500px;
-    height: 500px;
-
+    width: 150px;
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 150px;
    
     border-style: solid;
     border-width: thick;
@@ -146,7 +144,7 @@ body, #header-logo, #top-page-heading {
 }
 
 figcaption {
-    margin-top: 100px;
+    margin-top: 25px;
 
     font-family: 'Hero New', sans-serif;
     font-size: 18px;
