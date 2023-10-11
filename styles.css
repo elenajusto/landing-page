@@ -71,6 +71,7 @@ body, #header-logo, #top-page-heading {
 
 #button-sign-up {
     font-weight: bold;
+    font-size: larger;
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
     background-color: #3882f6;
@@ -78,7 +79,12 @@ body, #header-logo, #top-page-heading {
     width: 150px;
     height: 50px;
 
+    border-radius: 10px;
+
     margin: 0px 0px 30px 30px;
+
+    border-style: solid;
+    border-color: transparent;
 }
 
 #top-page-right {
@@ -95,8 +101,8 @@ body, #header-logo, #top-page-heading {
     align-items: center;         /* align vertically in the middle */
 
     background-color: grey;
-    width: 500px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
 }
 
 /******* middle-page Section Styles ******/
@@ -205,7 +211,18 @@ figcaption {
 }
 
 #call-action-button {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;
+    background-color: #3882f6;
 
+    width: 150px;
+    height: 50px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
 }
 
 /******* footer Section Styles ******/
