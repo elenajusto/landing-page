@@ -69,6 +69,7 @@ body, #header-logo, #top-page-heading {
 
 #button-sign-up {
     font-weight: bold;
+    font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
     background-color: #3882f6;
 
@@ -85,6 +86,7 @@ body, #header-logo, #top-page-heading {
 
 #top-page-image {
     color: #F9FAF8;
+    font-family: 'Hero New', sans-serif;
     
     display: flex;
     justify-content: center;     /* align horizontally in the center */
@@ -128,10 +130,13 @@ body, #header-logo, #top-page-heading {
     border-width: thick;
 
     border-color: #3882f6;
+
+    font-family: 'Hero New', sans-serif;
 }
 
 figcaption {
     padding-top: 20px;
+    font-family: 'Hero New', sans-serif;
 }
 
 /******* second-bottom-page Section Styles ******/
@@ -148,6 +153,13 @@ figcaption {
     padding-bottom: 200px;
 }
 
+p {
+    font-family: 'Hero New', sans-serif;
+}
+
+h3 {
+    font-family: 'Hero New', sans-serif;
+}
 /******* footer Section Styles ******/
 footer {
     padding-top: 50px;
