@@ -32,6 +32,7 @@ body, #header-logo, #top-page-heading {
 /******* top-page Section Styles ******/
 #top-page {
     background-color: #1F2937;
+    display: flex; /* Make the section a flex container */
 }
 
 #top-page-heading {
