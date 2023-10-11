@@ -235,4 +235,14 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #1F2937;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright {
+    font-family: 'Hero New', sans-serif;
+    color: #F9FAF8;;
+    font-size: 20px;;
 }
