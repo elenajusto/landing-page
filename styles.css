@@ -32,7 +32,10 @@ body, #header-logo, #top-page-heading {
 /******* top-page Section Styles ******/
 #top-page {
     background-color: #1F2937;
-    display: flex; /* Make the section a flex container */
+
+    display: flex;                   /* Make the section a flex container */
+    justify-content: space-around;   /* this will push the left elements to the left and right elements to the right w/ space from edge of page*/
+    align-items: center;             /* to vertically align the elements in the center */
 }
 
 #top-page-heading {
@@ -40,7 +43,9 @@ body, #header-logo, #top-page-heading {
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
 
-    margin: 30px;
+    margin: 20px 0px 20px 30px;
+
+    width: 500px;   /* For word wrapping */
 }
 
 #top-page-body {
@@ -48,12 +53,15 @@ body, #header-logo, #top-page-heading {
     font-family: 'Hero New', sans-serif;
     color: #F9FAF8;
 
-    margin  : 30px;
+    margin: 0px 0px 20px 30px;
+
+    width: 500px;   /* For word wrapping */
 }
 
 #top-page-left {
     display: flex;
     flex-direction: column;
+
 }
 
 #button-sign-up {
@@ -64,7 +72,7 @@ body, #header-logo, #top-page-heading {
     width: 150px;
     height: 50px;
 
-    margin: 30px;
+    margin: 0px 0px 30px 30px;
 }
 
 #top-page-right {
