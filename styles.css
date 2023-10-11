@@ -22,6 +22,9 @@ header {
     display: flex;
     justify-content: space-around;   /* this will push the logo to the left and the links to the right w/ space from edge of page*/
     align-items: center;             /* to vertically align the logo and links in the center */
+
+    padding: 30px;
+    padding-bottom: 100px;
 }
 
 /* Removes margin so that background colour is cohesive with no gaps*/
