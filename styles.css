@@ -97,6 +97,11 @@ body, #header-logo, #top-page-heading {
 }
 
 /******* middle-page Section Styles ******/
+#middle-page {
+    padding-top: 300;
+    padding-bottom: 300px;
+}
+
 #middle-page-heading {
     font-size: 36px;
     font-weight: bolder;
@@ -129,11 +134,23 @@ figcaption {
     padding-top: 20px;
 }
 
-#image-gallery-item {
-    
-}
-
 /******* second-bottom-page Section Styles ******/
+#second-bottom-page {
+    background-color: #E5E7EB;
 
+    padding-top: 200px;
+    padding-bottom: 200px;
+}   
 
 /******* bottom-page Section Styles ******/
+#bottom-page {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/******* footer Section Styles ******/
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1F2937;
+}
