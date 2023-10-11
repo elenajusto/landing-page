@@ -74,4 +74,13 @@ body, #header-logo, #top-page-heading {
 
 #top-page-image {
     color: #F9FAF8;
+    
+    display: flex;
+    justify-content: center;     /* align horizontally in the center */
+    align-items: center;         /* align vertically in the middle */
+    height: 200px;               /* set any height */
+
+    background-color: grey;
+    width: 500px;
+    height: 200px;
 }
