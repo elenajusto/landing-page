@@ -91,7 +91,6 @@ body, #header-logo, #top-page-heading {
     display: flex;
     justify-content: center;     /* align horizontally in the center */
     align-items: center;         /* align vertically in the middle */
-    height: 200px;               /* set any height */
 
     background-color: grey;
     width: 500px;
@@ -114,6 +113,7 @@ body, #header-logo, #top-page-heading {
 }
 
 #image-gallery {
+    margin: 100px;
     align-items: center;
 
     display: flex;
@@ -124,17 +124,21 @@ body, #header-logo, #top-page-heading {
     width: 500px;
     height: 500px;
 
-    padding: 10px;
+    padding: 40px;
+    padding-bottom: 80px;
    
     border-style: solid;
     border-width: thick;
 
     border-color: #3882f6;
+    border-radius: 25px;
+    border-width: 5px 5px; /* 5px top and bottom, 5px on the sides */
 
     font-family: 'Hero New', sans-serif;
 }
 
 figcaption {
+    margin-top: 100px;
     padding-top: 20px;
     font-family: 'Hero New', sans-serif;
 }
